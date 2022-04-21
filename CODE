@@ -1,0 +1,35 @@
+
+# UNIVERSAL CALCULATOR BY: RAYMOND OTOM
+def  add (x,y):
+    return x + y
+
+def subtract(x,y):
+    return x - y
+
+def multiply(x,y):
+    return x * y
+
+def divide(x,y):
+    return x / y
+
+
+operator = int(input("Input the operator first:\n"
+                     "1.Addition\n"
+                     "2. Subtraction\n"
+                     "3. Multiplication\n"
+                     "4. Division\n"
+                     "Input (1/2/3/4):"))
+f_num = float(input("Input the first number:"))
+s_num = float(input("Input the second number:"))
+
+if operator == 1:
+    print(f_num, "+", s_num, "=", add(f_num,s_num))
+if operator == 2:
+    print(f_num, "-", s_num, "=", subtract(f_num,s_num))
+if operator == 3:
+    print(f_num, "*", s_num, "=", multiply(f_num,s_num))
+if operator == 4:
+    print(f_num, "/", s_num, "=", divide(f_num, s_num))
+
+
+
