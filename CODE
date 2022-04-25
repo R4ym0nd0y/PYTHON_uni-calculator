@@ -24,12 +24,17 @@ s_num = float(input("Input the second number:"))
 
 if operator == 1:
     print(f_num, "+", s_num, "=", add(f_num,s_num))
-if operator == 2:
+elif operator == 2:
     print(f_num, "-", s_num, "=", subtract(f_num,s_num))
-if operator == 3:
+elif operator == 3:
     print(f_num, "*", s_num, "=", multiply(f_num,s_num))
-if operator == 4:
+elif operator == 4:
     print(f_num, "/", s_num, "=", divide(f_num, s_num))
+    
+    else:
+    print("Invalid Operator")
+    
+   
 
 
 
